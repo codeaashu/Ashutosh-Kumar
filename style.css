@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
 @font-face {
   font-family: Nu;
   src: url(./assets/Fonts/NeueMontreal-Regular.otf);
@@ -14,6 +16,7 @@
   font-family: aashu;
   src: url(./assets/Fonts/calendar\ note\ tfb.ttf);
 }
+
 /* ===( Creative By : CODE AASHU )=== */
 :root {
   --primary-color: #fff;
@@ -388,14 +391,14 @@ nav a.active::after {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 2.5vw;
+  font-size: 1.8vw;
   font-weight: bolder;
   display: inline-block;
   position: absolute;
-  font-family:"unique";
+  font-family: "Gabriela", serif;
   z-index: 2;
   top: 2vw;
-  left: -23.7vw;
+  left: -25.2vw;
   white-space: nowrap;
 }
 .hero .one {
@@ -415,8 +418,8 @@ nav a.active::after {
 .hero h2 {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 3vw;
-  line-height: 1;
+  font-size: 4vw;
+  line-height: 3;
   font-family: unique;
   background: rgb(17,168,179);
   background: linear-gradient(183deg, rgba(17,168,179,1) 0%, rgba(8,79,84,1) 100%);
@@ -1480,7 +1483,7 @@ nav a.active::after {
 .contact .contact-texts h2 {
   font-size: 5vw;
   font-weight: normal;
-  font-family: Clash;
+  font-family: "Gabriela", serif;
 }
 .contact .contact-texts a::after {
   content: "";
@@ -1509,7 +1512,7 @@ footer {
   padding: 1vw 4vw;
 }
 footer h1 {
-  font-family: unique;
+  font-family: "Gabriela", serif;
   font-weight: normal;
   font-size: 1.4vw;
 }
@@ -1848,10 +1851,11 @@ nav{
 .contact .contact-texts h2 {
   font-size: 6vw;
   font-weight: normal;
-  font-family: Clash;
+  font-family: "Gabriela", serif;
 }
 footer h1 {
   font-size: 2vw;
+  font-family: "Gabriela", serif;
 }
 footer .back-top {
   display: none;
