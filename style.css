@@ -418,8 +418,8 @@ nav a.active::after {
 .hero h2 {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 4vw;
-  line-height: 3;
+  font-size: 3.5vw;
+  line-height: 2;
   font-family: unique;
   background: rgb(17,168,179);
   background: linear-gradient(183deg, rgba(17,168,179,1) 0%, rgba(8,79,84,1) 100%);
@@ -1654,9 +1654,9 @@ nav{
   top: 473px;
 }
 .hero .profile #profile {
-  font-size: 8vw;
-  top: -15vw;
-  left: -38vw;
+  font-size: 6vw;
+  top: -9vw;
+  left: -33vw;
 }
 .hero .one {
   margin-top: 0vw;
