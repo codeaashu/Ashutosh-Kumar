@@ -421,6 +421,13 @@ nav a.active::after {
   font-size: 3.5vw;
   line-height: 2;
   font-family: unique;
+  Padding: 0.1rem 0.3rem;
+  padding-left: 2.3rem;
+  border-radius: 2rem;
+  border: 1px solid #494b4c;
+  border-bottom-color: #121619;
+  color: #c6c6c6;
+  background: linear-gradient(to top, #15181a 15%, #333638 85%, #3a3d3f);
   background: rgb(17,168,179);
   background: linear-gradient(183deg, rgba(17,168,179,1) 0%, rgba(8,79,84,1) 100%);
   -webkit-background-clip: text;
@@ -1669,6 +1676,8 @@ nav{
 
 .hero .full h2 {
   font-size: 5vw;
+  Padding: 0.1rem 0.3rem;
+  border-radius: 2rem;
 }
 .hero h4 {
   display: none;
